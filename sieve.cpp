@@ -2,6 +2,8 @@
 #include <vector>
 
 // A program to implement Sieve of Eratosthenes to obtain prime numbers up to a certain limit
+// The time complexity is O(n(log(log(n))))
+// Intuition: Summation of reciprocals of prime numbers, i.e 1/2 + 1/3 + 1/5 + 1/7 + ...
 
 using namespace std;
 
